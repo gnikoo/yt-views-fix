@@ -2,7 +2,11 @@
 
 Restores the classic YouTube homepage metadata layout that YouTube replaced in 2025/2026.
 
-**Before:** Channel name, a play-button SVG icon, abbreviated view count and time on a single line — e.g. `Channel Name ▶ 12K 10y ago`
+**Before:** Channel name, a play-button SVG icon, abbreviated view count and time on a single line — e.g. 
+
+```
+`Channel Name ▶ 12K 10y ago`
+```
 
 **After:** The classic two-line format — e.g.
 ```
