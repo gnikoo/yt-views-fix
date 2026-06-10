@@ -30,6 +30,17 @@ Channel Name
 
 > Note: temporary add-ons are removed when Firefox restarts. For a permanent install, the extension is available on [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/yt-views-fix/).
 
+
+## Installing on Chrome
+
+1. Download the latest release zip and unzip it
+2. Go to `chrome://extensions` in the address bar
+3. Enable **Developer mode** in the top-right corner
+4. Click **Load unpacked**
+5. Select the unzipped `yt-views-fix-chrome` folder
+
+>> Note: temporary add-ons are removed when Firefox restarts. For a permanent install, the extension will become available on the Chrome Web Store after review. This README will be updated with the link once the extension is published.
+
 ## License
 
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) — Free for personal use. No commercial use. No redistribution of modified versions without permission.
