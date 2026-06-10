@@ -39,7 +39,7 @@ Channel Name
 4. Click **Load unpacked**
 5. Select the unzipped `yt-views-fix-chrome` folder
 
-> Note: temporary add-ons are removed when Firefox restarts. For a permanent install, the extension will become available on the Chrome Web Store after review. This README will be updated with the link once the extension is published.
+> Note: unpacked extensions will show a warning on startup that can be dismissed. For a permanent install, the extension will become available on the Chrome Web Store after it is reviewed. This README will be updated with the link once the extension is published.
 
 ## License
 
