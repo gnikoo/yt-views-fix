@@ -1,0 +1,24 @@
+/*
+ * YouTube Layout Fix — styles.css
+ *
+ * Hides the play-button SVG icon (ytContentMetadataViewModelLeadingIcon)
+ * and its adjacent delimiter that appear in the new single-row layout.
+ * The JS handles restructuring the text; this CSS is a safety net.
+ */
+
+/* Hide the leading play-button icon span */
+.ytContentMetadataViewModelLeadingIcon {
+  display: none !important;
+}
+
+/* Hide the delimiter that sits between channel name and the icon
+   only when it's directly preceding the icon (the • before the SVG) */
+.ytContentMetadataViewModelLeadingIcon
+  + .ytContentMetadataViewModelDelimiter {
+  display: none !important;
+}
+
+/* Our restored stats line */
+span.ytlf-restored {
+  color: var(--yt-spec-text-secondary, #aaa);
+}
